@@ -128,7 +128,7 @@ cloud-ops-toolkit/
 - Bats (optional, for running tests locally)
 - ShellCheck (optional)
 
-# Installation
+# How to Run
 
 Clone the repository:
 
@@ -166,8 +166,8 @@ bats tests/
 
 Every push triggers a GitHub Actions workflow that runs:
 
-1. **ShellCheck** — Static analysis for Bash scripts.
-2. **Bats** — Automated tests.
+1. **ShellCheck** - Static analysis for Bash scripts.
+2. **Bats** - Automated tests.
 
 The workflow validates the scripts automatically without requiring Azure credentials.
 
