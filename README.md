@@ -54,8 +54,6 @@ Run:
 ./scripts/server-health.sh
 ```
 
----
-
 ## docker-health.sh
 
 Checks whether Docker is installed and running.
@@ -74,8 +72,6 @@ Run:
 ./scripts/docker-health.sh
 ```
 
----
-
 ## backup-to-blob.sh
 
 Creates a compressed `.tar.gz` archive from a directory.
@@ -92,7 +88,6 @@ Local backup:
 ```bash
 ./scripts/backup-to-blob.sh ./my-folder --local-only
 ```
-
 Azure upload:
 
 ```bash
