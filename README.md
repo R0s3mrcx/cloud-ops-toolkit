@@ -171,14 +171,6 @@ Every push triggers a GitHub Actions workflow that runs:
 
 The workflow validates the scripts automatically without requiring Azure credentials.
 
-# Future Improvements
-
-- CPU usage monitoring
-- Log file support
-- Automatic backup retention
-- Restore backup script
-- Email or Slack notifications
-- Azure authentication using Managed Identity
 
 # License
 
