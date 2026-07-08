@@ -6,28 +6,24 @@
 ![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
 ![License](https://img.shields.io/github/license/r0s3mrcx/cloud-ops-toolkit)
 
-A collection of Bash scripts that automate common Linux, Docker, and Azure operational tasks.
+A collection of Bash scripts for automating common Linux, Docker, and Azure operational tasks.
 
-The repository includes reusable scripts, automated testing with Bats, and continuous integration using GitHub Actions.
+The project combines Bash, Docker, Azure CLI, GitHub Actions, and automated testing into a small operations toolkit.
 
 # Architecture
 
 ```
-Linux Server
-      │
-      ▼
- Bash Scripts
-      │
- ┌────┼─────────────┐
- ▼    ▼             ▼
-Server Docker     Backup
-Health Health     to Azure Blob
-      │
-      ▼
- Automated Tests (Bats)
-      │
-      ▼
- GitHub Actions CI
+          Bash Scripts
+                │
+      ┌─────────┼─────────┐
+      ▼         ▼         ▼
+Server Health Docker Health Backup
+                │
+                ▼
+      Azure Blob Storage
+                │
+                ▼
+       GitHub Actions CI
 ```
 
 # Available Scripts
