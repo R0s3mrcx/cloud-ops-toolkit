@@ -15,15 +15,12 @@ The project combines Bash, Docker, Azure CLI, GitHub Actions, and automated test
 ```
           Bash Scripts
                 │
-      ┌─────────┼─────────┐
-      ▼         ▼         ▼
+    ┌───────────┼───────────┐
+    ▼           ▼           ▼
 Server Health Docker Health Backup
-                │
-                ▼
-      Azure Blob Storage
-                │
-                ▼
-       GitHub Actions CI
+                               │
+                               ▼
+                     Azure Blob Storage
 ```
 
 # Available Scripts
